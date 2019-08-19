@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	padding:0;
+	margin:0;
+}
+
+/*exported css*/
+body
+{
+	background:#fff;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	text-align:center;
+}
+#header
+{
+	background:#00a2d1;
+	width:100%;
+	height:50px;
+	color:#fff;
+	font-size:36px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#body
+{
+	margin-top:100px;
+}
+#body table
+{
+	margin:0 auto;
+	position:relative;
+	bottom:50px;
+}
+table td,th
+{
+	padding:20px;
+	border: solid #9fa8b0 1px;
+	border-collapse:collapse;
+}
+#footer
+{
+	text-align:center;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	bottom:50px;
+}
+body{
+	background:url('../images/background.jpg') no-repeat;
+}
+
+/* DIV */
+#content{
+	margin-top:130px;
+}
+
+#footer{
+	height:40px;
+	width:100%;
+	filter: none;
+	border: 1px solid #D5D5D5;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	bottom: 0;
+	border-width: 1px 0 0;
+}
+
+#sidebar{
+	top:52px;
+	width:17%;
+	position:fixed;
+	height:100%;
+	border:1px solid #e7e7e7;
+	background-color:#fff;
+}
+
+#sidecontent{
+	width:81%;
+	word-wrap:break-word;
+	margin-top:52px;
+	background-color:rgba(255, 255, 255, 0.8);
+	padding:10px;
+	border-radius:2px;
+}
+
+#menu ul li{
+	list-style-type:none;
+	padding:5px;
+	border-bottom:0;
+}
+
+#menu ul li a:hover{
+	text-decoration:none;
+}
+
+#picture{
+	height:1600px;
+	width:2000px;
+}
+
+#photo{
+	height:75px;
+	width:75px;
+}
+
+/* CLASS */
+.backcontent{
+	background-color:rgba(255, 255, 255, 0.4);
+}
+
+.menu li{
+	border-bottom:1px solid #E7E7E7;
+}
+
+.balance{
+	cursor:pointer;
+}
+
+.paid{
+	cursor:pointer;
+}
+//new
+body{
+	background:url('../images/background.jpg') no-repeat;
+}
+
+/* DIV */
+#content{
+	margin-top:130px;
+}
+
+#footer{
+	height:40px;
+	width:100%;
+	filter: none;
+	border: 1px solid #D5D5D5;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	bottom: 0;
+	border-width: 1px 0 0;
+}
+
+#sidebar{
+	top:52px;
+	width:17%;
+	position:fixed;
+	height:100%;
+	border:1px solid #e7e7e7;
+	background-color:#fff;
+}
+
+#sidecontent{
+	width:81%;
+	word-wrap:break-word;
+	margin-top:52px;
+	background-color:rgba(255, 255, 255, 0.8);
+	padding:10px;
+	border-radius:2px;
+}
+
+#menu ul li{
+	list-style-type:none;
+	padding:5px;
+	border-bottom:0;
+}
+
+#menu ul li a:hover{
+	text-decoration:none;
+}
+
+#picture{
+	height:200px;
+	width:200px;
+}
+
+#photo{
+	height:75px;
+	width:75px;
+}
+
+/* CLASS */
+.backcontent{
+	background-color:rgba(255, 255, 255, 0.4);
+}
+
+.menu li{
+	border-bottom:1px solid #E7E7E7;
+}
+
+.balance{
+	cursor:pointer;
+}
+
+.paid{
+	cursor:pointer;
+}
+ //reg_form css begginns 
+  .error-message {
+  padding: 7px 10px;
+  background: #fff1f2;
+  border: #ffd5da 1px solid;
+  color: #d6001c;
+  border-radius: 4px;
+}
+.success-message {
+  padding: 7px 10px;
+  background: #cae0c4;
+  border: #c3d0b5 1px solid;
+  color: #027506;
+  border-radius: 4px;
+}
+.demo-table {
+  background: #d9eeff;
+  width: 100%;
+  border-spacing: initial;
+  margin: 2px 0px;
+  word-break: break-word;
+  table-layout: auto;
+  line-height: 1.8em;
+  color: #333;
+  border-radius: 4px;
+  padding: 20px 40px;
+}
+.demo-table td {
+  padding: 15px 0px;
+}
+.demoInputBox {
+  padding: 10px 30px;
+  border: #a9a9a9 1px solid;
+  border-radius: 4px;
+}
+.btnRegister {
+  padding: 10px 30px;
+  background-color: #3367b2;
+  border: 0;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+/*regform css beggins */
+.error-message {
+  padding: 7px 10px;
+  background: #fff1f2;
+  border: #ffd5da 1px solid;
+  color: #d6001c;
+  border-radius: 4px;
+}
+.success-message {
+  padding: 7px 10px;
+  background: #cae0c4;
+  border: #c3d0b5 1px solid;
+  color: #027506;
+  border-radius: 4px;
+}
+.demo-table {
+  background: #d9eeff;
+  width: 100%;
+  border-spacing: initial;
+  margin: 2px 0px;
+  word-break: break-word;
+  table-layout: auto;
+  line-height: 1.8em;
+  color: #333;
+  border-radius: 4px;
+  padding: 20px 40px;
+}
+.demo-table td {
+  padding: 15px 0px;
+}
+.demoInputBox {
+  padding: 10px 30px;
+  border: #a9a9a9 1px solid;
+  border-radius: 4px;
+}
+.btnRegister {
+  padding: 10px 30px;
+  background-color: #3367b2;
+  border: 0;
+  color: #FFF;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 10px;
+}
